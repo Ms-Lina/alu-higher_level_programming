@@ -1,16 +1,25 @@
 #!/usr/bin/python3
+"""Creating a square """
+
 
 class Square:
+    '''
+    Create a square that
+        Has a private Instance attribute: size
+    '''
 
-    def __init__(self, size=0)
+    def __init__(self, size=0):
+        ''' init size '''
         self.__size = size
 
     @property
-    def size(self)
+    def size(self):
+        "returns the size attribute"
         return self.__size
 
     @size.setter
     def size(self, size):
+        '''asigning the size to  size attribute'''
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
