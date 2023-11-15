@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Creating a rectangle"""
+''' Creating a rectangle'''
 
 
 class Rectangle:
